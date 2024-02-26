@@ -97,3 +97,24 @@ console.table(
 // │    1    │          │ 'object' │            │
 // │    2    │          │          │ 'function' │
 // └─────────┴──────────┴──────────┴────────────┘
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) and Heap (Non primitive)
+
+// Stack
+let myName = "Vibhav";
+let anotherName = myName;
+
+console.table({ myName, anotherName });
+
+// Heap
+let objOne = {
+  email: "user@google.com",
+  upi: "user@upi",
+};
+
+let objTwo = objOne;
+
+objOne.email = "vibhav@google.com";
+console.table({ objOne, objTwo });
