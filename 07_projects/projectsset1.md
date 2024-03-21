@@ -2,7 +2,7 @@
 
 ## project link
 
-[Click here](https://dom-project-chaiaurcode-rhqpgx.stackblitz.io/1-colorChanger/index.html)
+[Click here](https://stackblitz.com/edit/dom-projects-practice?file=index.html)
 
 # Solution code
 
